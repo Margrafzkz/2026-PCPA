@@ -11,6 +11,15 @@ Matheus Margraf
 # Processamento: soma dos dois valores
 # Saída: tem o Print que e uma saida  
 
-valor1 = int(input(""))
-valor2 = int(input(""))
-print (f"X = {valor1+valor2}")
+# int() converte para o texto para um valor inteiro
+# input() Lê o valor digitado
+# int(input()) le e converte em uma unica instrução 
+A = int(input(""))
+B = int(input(""))
+
+# Seguir as variaveis X, A e B a risca 
+X = A + B 
+
+# f-string: insere o valor de X dentro do texto {}
+# atenção: espaço antes de depois do = é obrigatorio conforme o enunciado 
+print (f"X = {A+B}")
