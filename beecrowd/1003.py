@@ -10,6 +10,10 @@ Matheus Margraf
 # Processamento: soma dos dois valores
 # Saída: Mostra a soma dos dois valores
 
-valor1 = int(input(""))
-valor2 = int(input(""))
-print (f"SOMA = {valor1+valor2}")
+# leitura das variáveis (A e B)
+
+A = int(input(""))
+B = int(input(""))
+
+# Saída e Cálculo 
+print (f"SOMA = {A+B}")
