@@ -10,4 +10,6 @@ Estudante: MatheusMargraf
 # Processamento: soma dos valores
 # Saída: Mostrar o resultado da soma
 
-input 
+valor1 = int(input(""))
+valor2 = int(input(""))
+PROAD  = 
