@@ -9,6 +9,8 @@ Matheus Margraf
 
 # Entrada: nenhuma
 # Processamento: nenhum
-# Saída: tem o Print que e uma saida 
+# Saída: exibir a mensagem hello world
 
+# print() comando de saida em python
+# equivalente a o bloco diga do scratch
 print("Hello World!")
