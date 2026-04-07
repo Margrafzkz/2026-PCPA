@@ -1,0 +1,14 @@
+'''
+Problema 1000 BeeCrowd
+Matheus Margraf
+2026.03.31
+'''
+# Objetivo: Mostrar Hello World! na tela
+
+# --- ANÁLISE (LIAC) ---
+
+# Entrada: nenhuma
+# Processamento: nenhum
+# Saída: tem o Print que e uma saida 
+
+print("Hello World!")
