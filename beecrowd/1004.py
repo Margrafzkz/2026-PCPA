@@ -10,6 +10,10 @@ Estudante: MatheusMargraf
 # Processamento: soma dos valores
 # Saída: Mostrar o resultado da soma
 
-valor1 = int(input(""))
-valor2 = int(input(""))
-PROAD  = 
+A = int(input(""))
+B = int(input(""))
+# atribuir a multiplicação de A e B a PROD
+PROD = A * B
+
+#Saída - imprimir o resultado do PROD
+print (f"PROD = {PROD}")
