@@ -1,0 +1,32 @@
+'''
+Problema: beecrowd | 1018
+Data: 2026.04.30 
+Estudante: Matheus Margraf
+'''
+# Objetivo: ler um valor inteiro e decompor ao menor numero possivel divindo em cedulas de (100, 50, 20, 10, 5, 2, e 1)
+
+# --- ANÁLISE (LIAC) ---
+# processamento: decompor divindo o numero pelas celulas 
+# entrada: Um numero inteiro (int)
+# saida: Imprimir o valor lido em seguida e mostrar quantas celulas de cada 
+
+n = int(input())
+
+N = n
+
+n100 = n // 100; n = n % 100
+n50 = n // 50; n = n % 50
+n20 = n // 20; n = n % 20
+n10 = n // 10; n = n % 10
+n05 = n // 5; n = n % 5 
+n02 = n // 2; n = n % 2
+n01 = n
+
+print(f'{N}')
+print(f'{n100} nota(s) de R$ 100,00')
+print(f'{n50} nota(s) de R$ 50,00')
+print(f'{n20} nota(s) de R$ 20,00')
+print(f'{n10} nota(s) de R$ 10,00')
+print(f'{n05} nota(s) de R$ 5,00')
+print(f'{n02} nota(s) de R$ 2,00')
+print(f'{n01} nota(s) de R$ 1,00')
