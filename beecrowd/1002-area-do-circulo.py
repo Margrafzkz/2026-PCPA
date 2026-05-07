@@ -17,7 +17,7 @@ R = float(input())
 pi = 3.14159
 
 # Definir a formula para caulcar o o valor da Area usando o R (raio)
-AREA = (4.0 / 3) * pi * R ** 3
+AREA = pi * R ** 2
 
 # :.3f - formata o numero com exatamente 3 casas decimais 
 print(f"A={AREA:.4f}")
